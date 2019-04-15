@@ -59,7 +59,7 @@ Storage=Fun_GetFreeDisk("C:",100)
 if Storage[1]==1:
 	f.write('Check_Disk_Space: Fail ')
 	if Storage[0]=='DNF':
-		f.write('Directory '+args.DriveName+ ' Not found'+"\n")
+		f.write('Directory '+args.DriveName+ ' nnot found'+"\n")
 	else:
 		f.write("Recommended Value is 100 , Actual Value is "+args(Storage[0])+"\n" )
 elif Storage[1]==0:
